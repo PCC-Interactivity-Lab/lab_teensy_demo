@@ -1,3 +1,11 @@
+/*
+ Demo code for PCC Interactivity Lab Teensies
+
+ This is the default code that we keep on all lab Teensies for demoing sensor to midi behavior
+
+ 2017 Nolan Thomas and Jesse Mejia
+ */
+
 
 int sensorPin = 15;
 int sensorReading = 0;

@@ -24,7 +24,7 @@ void setup(){
 
 void loop(){
   sensorReading = analogRead(sensorPin); 
-  sensorReading = constrain(sensorReading, 590, 1024);
+  sensorReading = constrain(sensorReading, 500, 1024);
   sensorScaled = map(sensorReading, 500, ambient_light, 0, 127); //500 was low range of the photocell i tested
   potReading = analogRead(potPin);
   potScaled = map(potPin, 0, 1023, 0, 127);

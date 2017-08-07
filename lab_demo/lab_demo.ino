@@ -28,7 +28,7 @@ void loop(){
 
 
   usbMIDI.sendControlChange(1, sensorScaled, 1);
-  usbMIDI.sendControlChange(2, potReading, 1);  
+  usbMIDI.sendControlChange(2, potScaled, 1);  
 
   delay(100); //just here to slow down the output for easier reading
   Serial.println(potScaled);
